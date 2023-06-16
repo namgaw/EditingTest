@@ -1,0 +1,105 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crc8e_accuity_queries",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crc8e_accuity_query",
+    "Name": "Accuity_Queries",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "crc8e_accuity_query_Annotations": "Notes",
+      "crc8e_accuity_query_AsyncOperations": "System Jobs",
+      "crc8e_accuity_query_BulkDeleteFailures": "Bulk Delete Failures",
+      "crc8e_accuity_query_DuplicateBaseRecord": "Duplicate Records (crc8e_accuity_query_DuplicateBaseRecord)",
+      "crc8e_accuity_query_DuplicateMatchingRecord": "Duplicate Records (crc8e_accuity_query_DuplicateMatchingRecord)",
+      "crc8e_accuity_query_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crc8e_accuity_query_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crc8e_accuity_query_ProcessSession": "Process Sessions",
+      "crc8e_accuity_query_SyncErrors": "Sync Errors",
+      "crc8e_accuity_queryid": "Accuity_Query",
+      "crc8e_dischargedate": "DischargeDate",
+      "crc8e_dx_code": "Dx_Code",
+      "crc8e_dx_desc": "Dx_Desc",
+      "crc8e_har": "HAR",
+      "crc8e_nummdagreedqueries": "NumMDAgreedQueries",
+      "crc8e_numqueriesposted": "NumQueriesPosted",
+      "crc8e_primary": "Primary",
+      "crc8e_recommendationtext": "RecommendationText",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Accuity_Queries",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Accuity_Queries (Views)",
+    "Name": "_crc8e_accuity_query_views",
+    "RelatedEntityName": "Accuity_Queries",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2763e870-3f45-486e-9b47-e65901ce4c1c": "Accuity_Query Lookup View",
+      "56b21412-fe44-4485-9ad0-4a05db9c3569": "Inactive Accuity_Queries",
+      "97631997-3c84-4ae7-9585-c7ced5a76ec5": "Active Accuity_Queries",
+      "abd0f743-e6a9-4aee-b8cf-1dd2f9922f66": "Accuity_Query Advanced Find View",
+      "df0a576c-9d54-441a-ace9-f5a8b130d9f9": "Accuity_Query Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Accuity_Queries)",
+    "Name": "crc8e_accuity_query_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Accuity_Queries"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Accuity_Queries",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Accuity_Queries)",
+    "Name": "crc8e_accuity_query_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Accuity_Queries"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Accuity_Queries",
+    "Type": "OptionSetInfo"
+  }
+]
